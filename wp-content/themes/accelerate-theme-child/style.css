@@ -10,11 +10,7 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
-/* Parent Styles */
 
-ul {
-	list-style-type: none;
-}
 
 /* Home Page */
 
@@ -42,26 +38,34 @@ ul {
 	margin-bottom: 2em;
 }
 
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .blog-post h4 {
 	color: grey;
 	text-transform: uppercase; 
 }
-
-
 
 .read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
-}
-	
+}	
 
-.featured-work h4 {
-	text-transform: uppercase;
-	margin:auto;
+.individual-featured-work {
+	margin: 30px;
 }
 
+.individual-featured-work h3 {
+	margin-top: 0px;
+}
+
+.individual-featured-work-header {
+	text-align: center;
+}
 
 
 /* Case Studies */
@@ -82,7 +86,7 @@ aside.case-study-sidebar {
 }
 
 div.case-study-images {
-	float:right;
+	float: right;
 	width:600px;
 
 }
