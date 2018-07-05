@@ -68,6 +68,54 @@ Text Domain:  accelerate-theme-child
 }
 
 
+/* Clearfix */
+
+.clearfix {
+	overflow: auto;
+}
+
+/* END Clearfix */
+
+/*Case Study Archive Page*/
+article.archive-case-study {
+	margin:40px 0;
+}
+
+aside.archive-case-study-sidebar {
+	float: left;
+	width: 300px;
+	margin: 0 30px 0 0;
+
+}
+
+.archive-case-study-sidebar h5 {
+	color:gray;
+	text-transform: none;
+	font-weight: normal;
+
+}
+
+
+
+div.archive-case-study-images {
+	float: right;
+	width:600px;
+
+}
+
+div.archive-case-study-images img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+
+
+
+
+
+
 /* Case Studies */
 
 article.case-study {
@@ -92,7 +140,11 @@ div.case-study-images {
 }
 
 div.case-study-images img {
+	width: 100%;
+	height: auto;
 	display:block;
 	margin-bottom:50px;
 	border: 1px solid #dddddd;
 }
+
+/* END Case Studies*/
