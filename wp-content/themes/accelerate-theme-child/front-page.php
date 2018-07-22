@@ -13,7 +13,10 @@
  * @since Accelerate Marketing 2.0
  */
 
+
 get_header(); ?> 
+
+<head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous"></head>
 
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
