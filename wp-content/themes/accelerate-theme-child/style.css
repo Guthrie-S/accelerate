@@ -126,7 +126,15 @@ ul.social-media-menu li {
 	display: inline-block;
 	font-family: 'Fontawesome';
 	content: '\f0a9';
-	font-size: 1.25em
+	font-size: 1.25rem;
+	padding: .3em;
+	line-height: 1em;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	background: #3b3b3b;
 }
 
 .social-media-menu li a[href*="mailto"]::before{content:'\f0e0';}
