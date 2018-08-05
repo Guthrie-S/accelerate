@@ -225,3 +225,38 @@ div.case-study-images img {
 }
 
 /* END Case Studies*/
+
+/* Contact Form Styles */
+.nf-form-fields-required {
+  	display: none;
+} /*catchall required*/
+
+.ninja-forms-req-symbol {
+  	display: none;
+} /*catchall asterisks remove */
+
+#nf-field-2-wrap {
+	float: center;
+}
+
+#nf-field-1-wrap {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
